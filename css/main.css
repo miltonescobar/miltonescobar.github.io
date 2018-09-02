@@ -1,0 +1,153 @@
+/* Nova Fabrica Stylesheet */
+
+/*
+Standard Colors:
+  Rust:  #A72F18
+  Beige: #DFD7BC
+  Grey:  #58595B
+  Green: #90947F
+*/
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    background: #051a2f;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #ffffff;
+    background-image: url('../images/blue-body-background.jpg');
+}
+
+p, td, ul, ol, li, dl, dt, dd {
+    font-family: Georgia, Garamond, "Times New Roman", Times, serif;
+}
+
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a, a:visited {
+    color: #00c525;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Structure */
+
+#header {
+}
+
+#header #logo {
+    margin: 20px;
+    text-shadow: #85948c 5px 7px 6px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 65%;
+}
+
+#content p {
+    font-size: 1.1em;
+}
+
+p.deco, #content h2 + p {
+    text-indent: 24px;
+}
+
+#content strong {
+    font-style: normal;
+    font-weight: 500;
+    color: #A72F18;
+}
+
+#content.contact ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+#content.services ul {
+    list-style-type: square;
+    font-size: 1.2em;
+}
+
+#content #logo {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+#content h2 {
+    color: #00ad57;
+    text-shadow: #85948c 5px 7px 6px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 117, 58, 0.54);
+    clear: both;
+    border-top: 4px solid rgba(44, 78, 61, 0.46);
+}
+
+.left {
+    float: left;
+    margin-right: 2em;
+}
+
+.right {
+    float: right;
+    margin-left: 2em;
+}
+
+/***************************************************************************************
+***************************************************************************************/
+#logo {
+    font-size: 3em;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width: 321px) {
+    /* Styles */
+    img {
+        display: block;
+        width: 5em;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 1em
+    }
+}
+
+
